@@ -1,0 +1,10 @@
+# Navigate to your repo
+cd ~/my-github-repo
+
+# Copy the script into your repo folder
+cp ~/loadbalancer-lab.sh .
+
+# Add, commit, and push
+git add loadbalancer-lab.sh
+git commit -m "Add GCP load balancer lab script"
+git push origin main
