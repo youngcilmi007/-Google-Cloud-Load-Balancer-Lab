@@ -11,8 +11,18 @@ This repository contains the Google Cloud commands and documentation for setting
 - Test VM connectivity
 - Clean up resources after lab
 
-## Folder Structure
-- `loadbalancer-lab.sh`: Script with all gcloud commands to recreate the lab
+## Folder Structure  gcloud-loadbalancer-lab/
+├── README.md
+├── loadbalancer-lab.sh
+├── screenshots/
+│   ├── vm-instance.png
+│   ├── load-balancer.png
+│   └── firewall-rules.png
+├── exports/
+│   ├── instances.txt
+│   ├── firewall-rules.txt
+│   ├── networks.txt
+│   └── backends.txt-                                              `loadbalancer-lab.sh`: Script with all gcloud commands to recreate the lab
 - `screenshots/`: Visual confirmation of VM, load balancer, and firewall rules
 - `exports/`: Exported resource lists from gcloud for reference
 
